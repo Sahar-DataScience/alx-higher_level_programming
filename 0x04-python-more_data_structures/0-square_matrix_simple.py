@@ -1,6 +1,6 @@
 import numpy
 
-def square_matrix_simple(matrix=[]):
+def square_matrix_simple(matrix):
 
     m = len(matrix)
     n = len(matrix[0])
