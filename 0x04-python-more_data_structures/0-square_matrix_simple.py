@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import numpy
 
 def square_matrix_simple(matrix):
