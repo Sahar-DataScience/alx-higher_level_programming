@@ -1,13 +1,15 @@
 #!/usr/bin/python3
 
 def safe_print_list(my_list=[], x=0):
+    nb_digit = 0
     try:
         line = ''
         for i in range(x):
-            line += str(my_list[i])
-        print(line, '\n')
+           # line += str(my_list[i])
+            print("{}".format(my_list[i]), end="")
+            nb_digit += 1
+        #print(line, '\n')
 
-    except IndexError:
-        print("x should be integer and less or equal to list length")
+    except:
         continue
-    return x
+    return nb_digit
