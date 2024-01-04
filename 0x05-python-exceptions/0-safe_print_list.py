@@ -10,5 +10,5 @@ def safe_print_list(my_list=[], x=0):
             nb_digit += 1
         print(line)
     except IndexError:
-        continue
+        print(" x out of range of list")
     return nb_digit
